@@ -16,7 +16,7 @@ describe('<Matrix />', () => {
   try {
     var defRows = Matrix.defaultProps.values
   } catch(e) {
-    console.log("Don't forget to set default props in Matrix!\n\n");
+    console. log("Don't forget to set default props in Matrix!\n\n");
     it("defines Matrix.defaultProps", () => {expect(false).to.equal(true)})
     return
   }
